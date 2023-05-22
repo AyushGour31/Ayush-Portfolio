@@ -783,14 +783,8 @@ section:nth-child(odd) .animate.scroll,
     .profil-photo{
         margin: auto;
     }
-    /* .home-sci{
-        bottom: -15rem;
-    } */
 }
 @media (max-width: 520px){
-    /* .home-sci{
-        bottom: -19rem;
-    } */
     html{
         font-size: 50%;
     }
@@ -824,16 +818,6 @@ section:nth-child(odd) .animate.scroll,
         text-align: center;
     }
 }
-/* @media (max-width: 450px){
-    .home-sci{
-        bottom: -17rem;
-    }
-}
-@media (max-width: 400px){
-    .home-sci{
-        bottom: -20rem;
-    }
-} */
 @media (max-width: 371px){
     .home{
         justify-content: center;
