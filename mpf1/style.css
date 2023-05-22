@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+main{
+    font-size: 1.5rem;
+}
+.flex{
+    display: flex;
+}
+.container{
+    margin: auto;
+    width: 90vw;
+    /* border: 1px solid brown; */
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    color: #1977f2;
+    box-shadow: 0px 0px 10px 2px #4e4e4e;
+    padding: 5px 0px;
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul a{
+    /* background-color: #1977f2; */
+    padding: 15px;
+}
+ul a:hover{
+    color: #1977f2;
+}
+.about{
+    align-items: center;
+}
+.pt img{
+    position: relative;
+    right: 175px;
+    width: 350px;
+}
+.info{
+    padding-inline: 210px;
+    padding-bottom: 50px;
+    background: linear-gradient(#1977f2f5, #1977f2f5), url(hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75vw;
+    height: calc(100vh - 82.5px);
+    flex-direction: column;
+    justify-content: center;
+    /* color: #73a2e3; */
+    /* color: #b4cdf3; */
+    color: white;
+}
+.head{
+    margin-bottom: 10px;
+}
+.info h1{
+    /* color: #b4cdf3; */
+    color: white;
+    /* text-indent: 30px; */
+}
+.info p{
+    text-indent: 70px;
+    color: #b4cdf3;
+}
+.info h1 span{
+    color: #e2ca00;
+}
+h4{
+    margin-bottom: -10px;
+}
+p{
+    margin-top: -8px;
+}
+.abt{
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+.info h3{
+    /* color: #b4cdf3; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.info ul{
+    margin-left: 50px;
+}
+.info p span{
+    background-color: white;
+    color: #1977f2;
+    padding: 0 8px;
+    margin-inline: 5px;
+    border-radius: 30px;
+}
+.info ul li{
+    list-style: disc;
+}
+.b{
+    /* color: #e2ca00; */
+}
